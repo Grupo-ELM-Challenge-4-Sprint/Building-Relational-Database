@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCB9429F-B1C7-D57F-83A5-2F49FEE23436" name="ddd_usuario">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>6CB8D19E-DF2D-70E7-87E9-B265C747F784</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="301788D8-F7D5-30DB-B854-2BB03548A2DB">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>74800491-3128-26D1-B847-1D44160CED8D</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="054FE391-A1E3-8375-D101-9EEE2BADF1C0">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>1F770009-9A6F-4A14-2E53-5241ED72F949</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C2F65A24-025E-E2C1-4CF8-47AD34394356">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>13401F91-2DF8-B657-CD87-3CD169DA09AE</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="2FA24F13-980A-54C8-7A95-D880555F5B9D">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>CB82F34B-2063-4A85-BC58-2FEC53E1B285</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9CB0C9E4-8445-F2C8-BE45-DD25BA353035">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>DC7ABA07-184A-17B0-6D06-D354AE30221B</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="B58AE703-9106-8776-AF81-586536F2E73F">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>1FECB5AA-7CC1-D797-0403-DA0B87889589</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="4E0402A8-7885-7666-1AE1-40A9373A841C">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>CC605EE2-1F02-540C-6D4F-5FEA5A9A4A18</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="F0CFE4BB-AE41-6C9E-4968-1BB16F99576B">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>5D90CAB7-F7F8-84F3-7345-502B14A4866B</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_paciente" id="8C21CC86-669D-9760-BE39-FD67F7E61BCA">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>6D0D8111-061F-7451-E9A6-77B3F6A2390B</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_cuidador" id="C71917D2-756E-5921-2248-EB644CF7CF6D">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>6B017D1C-175E-D3E3-CEA0-1A75CD2AE47F</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paciente_editar" id="E95C3711-266A-E6B6-CB17-AC2165013B63">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>5EDBDD5D-2530-96B5-56BE-F07CA088DE09</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32B6F96F-9A80-B8BA-5C21-B4C6458582E4" name="ddd_usuario_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>1BC29096-D946-E27A-F15C-B2790139896A</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301788D8-F7D5-30DB-B854-2BB03548A2DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

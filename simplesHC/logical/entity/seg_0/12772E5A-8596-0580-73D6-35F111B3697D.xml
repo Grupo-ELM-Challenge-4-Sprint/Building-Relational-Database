@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12772E5A-8596-0580-73D6-35F111B3697D" name="ddd_receita">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:06 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_receita" id="F26A92E2-BA7A-1B3C-7641-5A0C688BF4EB">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:13 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E50D96E2-A25B-7529-61DE-6D75BB229B67">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:25 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequencia" id="07BFEA4E-D33C-ED13-F969-BE1EFED4F731">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:42 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dias" id="3CE33C3F-23F7-E2D8-7001-BBC32E70FB1C">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:57 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_dias" id="FD788C3D-FECB-1CB5-C445-E4B489C8F754">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:50:34 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="3EDA319E-3A48-9E58-04D1-B6E3060F36DE">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:51:04 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="90A63AF4-5902-5A4C-6CF2-516008261F1A">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:51:18 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacoes" id="57733929-0F2D-1028-3E2C-1ABD350B88D8">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:51:36 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="56BCD0E5-8E17-24E8-A10F-75B2DB37D399">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:51:51 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="5B5EADFE-8397-345D-F146-8C070B98A0DA">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:52:27 UTC</createdTime>
+<generatorID>00C36961-B23F-EE29-86C5-965ACD42130B</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<referedAttribute>74800491-3128-26D1-B847-1D44160CED8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3358973A-8291-D76E-052F-A2E2055E9B33" name="ddd_receita PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-03 20:49:24 UTC</createdTime>
+<ownerDesignName>simplesHC</ownerDesignName>
+<engineerTo>
+<item key="CB0B93A6-8DD9-8109-9F9C-5A580F4215C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F26A92E2-BA7A-1B3C-7641-5A0C688BF4EB</attributeRef>
+<attributeRef>5B5EADFE-8397-345D-F146-8C070B98A0DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

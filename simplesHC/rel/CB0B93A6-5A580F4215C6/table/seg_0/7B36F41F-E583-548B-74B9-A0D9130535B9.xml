@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B36F41F-E583-548B-74B9-A0D9130535B9" name="ddd_receita">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>12772E5A-8596-0580-73D6-35F111B3697D</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_receita" id="DB8EDEC8-A11E-1303-82F7-F01EE7F08B9A">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>F26A92E2-BA7A-1B3C-7641-5A0C688BF4EB</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="5F71C580-961F-C291-422A-2443E62B4365">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>E50D96E2-A25B-7529-61DE-6D75BB229B67</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frequencia" id="32462327-FCD6-C99C-E9FC-B1721F848C8C">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>07BFEA4E-D33C-ED13-F969-BE1EFED4F731</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dias" id="461BF54E-1E8D-48E2-73B6-223F34E23345">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>3CE33C3F-23F7-E2D8-7001-BBC32E70FB1C</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_dias" id="419B544D-4FEB-4772-A2A8-4A2154E1CE88">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>FD788C3D-FECB-1CB5-C445-E4B489C8F754</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio" id="8BFE253D-EEDF-A461-32CE-8E17A0E97CA4">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>3EDA319E-3A48-9E58-04D1-B6E3060F36DE</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="DEC33E6F-6334-574E-F9DF-62B3E3888C54">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>90A63AF4-5902-5A4C-6CF2-516008261F1A</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacoes" id="955B2D28-417B-4099-4746-AA9541E7D2F1">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>57733929-0F2D-1028-3E2C-1ABD350B88D8</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CCFF8EF2-079B-01EB-5633-F5137FC11AEE">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>56BCD0E5-8E17-24E8-A10F-75B2DB37D399</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddd_usuario_id_user" id="AE296E19-E07E-A237-6869-7C228B3682AD">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>5B5EADFE-8397-345D-F146-8C070B98A0DA</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EBC3FE1-85BC-4673-0D95-5310CC7F61EB" referredColumn="301788D8-F7D5-30DB-B854-2BB03548A2DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="444F122A-F59A-18B6-B389-C724D1C7DDA7" name="ddd_receita_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>3358973A-8291-D76E-052F-A2E2055E9B33</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB8EDEC8-A11E-1303-82F7-F01EE7F08B9A"/>
+<colUsage columnID="AE296E19-E07E-A237-6869-7C228B3682AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D6DB970-85D0-FF25-CADB-569B36C3D8AB" name="ddd_receita_ddd_usuario_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2025-11-04 17:34:50 UTC</createdTime>
+<generatorID>00C36961-B23F-EE29-86C5-965ACD42130B</generatorID>
+<ownerDesignName>simplesHC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE296E19-E07E-A237-6869-7C228B3682AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
