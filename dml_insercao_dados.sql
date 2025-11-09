@@ -1,26 +1,34 @@
--- 10 usuários (5 pacientes e 5 cuidadores)
+-- PACIENTES
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('12345678901', 'Ana Paula Silva', 'ana123', 'ana.silva@email.com', '11987654321', DATE '1985-04-12', 'PACIENTE', NULL, NULL, 1);
-INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('23456789012', 'Carlos Mendes', 'car123', 'carlos.mendes@email.com', '11996541234', DATE '1990-07-21', 'PACIENTE', NULL, NULL, 0);
-INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('34567890123', 'Mariana Costa', 'mar456', 'mariana.costa@email.com', '11998887777', DATE '1975-12-03', 'PACIENTE', NULL, NULL, 1);
-INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('45678901234', 'Pedro Santos', 'ped789', 'pedro.santos@email.com', '11991234567', DATE '2000-01-15', 'PACIENTE', NULL, NULL, 0);
-INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('56789012345', 'Juliana Rocha', 'jul321', 'juliana.rocha@email.com', '11992345678', DATE '1988-06-09', 'PACIENTE', NULL, NULL, 1);
-
+VALUES ('12345678901', 'Ana Paula Silva', 'Ana@1234', 'ana.silva@email.com', '11987654321', DATE '1985-04-12', 'PACIENTE', NULL, NULL, 1);
 
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('67890123456', 'Renato Alves', 'ren111', 'renato.alves@email.com', '11993456789', DATE '1980-03-17', 'CUIDADOR', NULL, NULL, 1);
+VALUES ('23456789012', 'Carlos Mendes', 'Car#5678', 'carlos.mendes@email.com', '11996541234', DATE '1990-07-21', 'PACIENTE', NULL, NULL, 0);
+
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('78901234567', 'Fernanda Lima', 'fer222', 'fernanda.lima@email.com', '11994567890', DATE '1982-10-28', 'CUIDADOR', NULL, NULL, 1);
+VALUES ('34567890123', 'Mariana Costa', 'Mar!7890', 'mariana.costa@email.com', '11998887777', DATE '1975-12-03', 'PACIENTE', NULL, NULL, 1);
+
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('89012345678', 'Rafael Torres', 'raf333', 'rafael.torres@email.com', '11995678901', DATE '1979-05-19', 'CUIDADOR', NULL, NULL, 1);
+VALUES ('45678901234', 'Pedro Santos', 'Ped@4321', 'pedro.santos@email.com', '11991234567', DATE '2000-01-15', 'PACIENTE', NULL, NULL, 0);
+
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('90123456789', 'Patrícia Souza', 'pat444', 'patricia.souza@email.com', '11996789012', DATE '1987-02-02', 'CUIDADOR', NULL, NULL, 1);
+VALUES ('56789012345', 'Juliana Rocha', 'Jul#8765', 'juliana.rocha@email.com', '11992345678', DATE '1988-06-09', 'PACIENTE', NULL, NULL, 1);
+
+-- CUIDADORES
 INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
-VALUES ('01234567890', 'Bruno Ferreira', 'bru555', 'bruno.ferreira@email.com', '11997890123', DATE '1995-09-30', 'CUIDADOR', NULL, NULL, 1);
+VALUES ('67890123456', 'Renato Alves', 'Ren!1357', 'renato.alves@email.com', '11993456789', DATE '1980-03-17', 'CUIDADOR', NULL, NULL, 1);
+
+INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
+VALUES ('78901234567', 'Fernanda Lima', 'Fer@2468', 'fernanda.lima@email.com', '11994567890', DATE '1982-10-28', 'CUIDADOR', NULL, NULL, 1);
+
+INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
+VALUES ('89012345678', 'Rafael Torres', 'Raf#3690', 'rafael.torres@email.com', '11995678901', DATE '1979-05-19', 'CUIDADOR', NULL, NULL, 1);
+
+INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
+VALUES ('90123456789', 'Patrícia Souza', 'Pat!4826', 'patricia.souza@email.com', '11996789012', DATE '1987-02-02', 'CUIDADOR', NULL, NULL, 1);
+
+INSERT INTO ddd_usuario (cpf, nome, senha, email, telefone, data_nascimento, tipo, cpf_paciente, cpf_cuidador, paciente_editar)
+VALUES ('01234567890', 'Bruno Ferreira', 'Bru@9753', 'bruno.ferreira@email.com', '11997890123', DATE '1995-09-30', 'CUIDADOR', NULL, NULL, 1);
 
 
 -- Consultas (10 linhas)
