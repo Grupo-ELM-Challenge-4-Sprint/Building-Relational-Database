@@ -1,5 +1,10 @@
 # Building-Relational-Database
 
+# Comunicado 
+
+Informando que nosso projeto não possui uma entidade associativa, mas possui uma entidade que faz auto-relacionamento.
+
+
 ## Link Front-end
 
 - Repositório GitHub: [https://github.com/Grupo-ELM-Challenge-4-Sprint/front-end-design-engineering](https://github.com/Grupo-ELM-Challenge-4-Sprint/front-end-design-engineering)
